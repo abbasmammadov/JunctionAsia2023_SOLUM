@@ -53,6 +53,5 @@ def visualize(img):
     plt.imshow(img)
     plt.show()
     
-
-
+    
 visualize("/Users/abbasmammadov/Desktop/code/good3.jpeg")
