@@ -58,13 +58,13 @@ with open("result.csv", "r") as f:
 
 
 plt.hist(df['sales'], bins=200)
-plt.axvline(x=lw, color='r', linestyle='dashed', linewidth=2, label="(re)move thershold)")
+plt.axvline(x=lw, color='y', linestyle='dashed', linewidth=2, label="(re)move thershold)")
 plt.axvline(x=diss, color='m', linestyle='dashed', linewidth=2, label ="discount recommmendation")
 plt.axvline(x=up, color='g', linestyle='dashed', linewidth=2, label ="recommend to keep")
 plt.legend(loc='upper right')
 
 # add a point with star shape to show the location of predicted point with some different color
-plt.axvline(x=new_prediction, color='y', linestyle='solid', linewidth=2)
+plt.axvline(x=new_prediction, color='r', linestyle='solid', linewidth=2)
 
 plt.show()
 
