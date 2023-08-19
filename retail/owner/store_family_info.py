@@ -18,7 +18,7 @@ with open("recommendations.csv", "r") as f:
         if str(row[0]) == str(store) and str(row[1]) == str(family):
             recommendation = str(row[2])
 
-print(recommendation)
+# print(recommendation)
 df = pd.read_csv(dataset_path)
 # print(family)
 # print(store)
@@ -67,3 +67,5 @@ plt.legend(loc='upper right')
 plt.axvline(x=new_prediction, color='y', linestyle='solid', linewidth=2)
 
 plt.show()
+
+# output is plt (figure for graph) and recommendation (corresponding decision suggegsted to owner/manager)
