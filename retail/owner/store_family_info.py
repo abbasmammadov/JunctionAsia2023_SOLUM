@@ -58,7 +58,7 @@ with open("result.csv", "r") as f:
 
 
 plt.hist(df['sales'], bins=200)
-plt.axvline(x=lw, color='y', linestyle='dashed', linewidth=2, label="(re)move thershold)")
+plt.axvline(x=lw, color='y', linestyle='dashed', linewidth=2, label="(re)move thershold")
 plt.axvline(x=diss, color='m', linestyle='dashed', linewidth=2, label ="discount recommmendation")
 plt.axvline(x=up, color='g', linestyle='dashed', linewidth=2, label ="recommend to keep")
 
