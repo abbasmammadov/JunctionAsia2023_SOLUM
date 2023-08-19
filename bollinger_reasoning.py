@@ -97,3 +97,10 @@ for family in families:
 for key in recommendations_detailed.keys():
     print(key, recommendations_detailed[key])
     print("\n")
+
+# save as a csv file
+with open("recommendations.csv", "w") as f:
+    writer = csv.writer(f)
+    writer.writerow(["store_nbr", "family", "recommendation"])
+    for key in recommendations_detailed.keys():
+        writer.writerow([key.split("_")[0], key.split("_")[1], recommendations_detailed[key]])
