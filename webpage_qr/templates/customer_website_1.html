@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        .product-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 20px;
+            border: 1px solid #ddd;
+            padding: 20px;
+        }
+        .product-image {
+            width: 500px;
+            height: auto;
+        }
+        .product-info {
+            flex: 1;
+            margin-left: 20px;
+            font-size: 30px;
+        }
+        .discount-header {
+            /*
+            background-color: #f5f5f5;
+            color: #333;
+            */
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            text-align: center;
+            padding: 10px;
+        
+        }
+        .discount-products {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+            padding: 20px;
+        }
+        .discount-product {
+            flex: 1;
+            text-align: center;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+/*
+        h3 {
+            margin: 0;
+            width: 100%;
+            background-color: red;
+            padding: 20px;
+        }
+        div{
+            padding: 0;
+            margin:0;
+        }
+        */
+        .dudush{
+            font-size: 30px;
+        }
+        span{
+            font-weight: bold;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Product Information</h1>
+    </header>
+    <div class="product-container">
+        <div class="product-info">
+            <h2>Organic cracker</h2>
+            <p>Price: <span>$15.99</span></p>
+            <p>Location: Shelf 13</p>
+        </div>
+        <img class="product-image" src="../static/cracker.png" alt="Product Image">
+    </div>
+    <div class="discount-header">
+        <h1>Discounts</h1>
+    </div>
+    <div class="discount-products">
+        <div class="discount-product">
+            <h3>Cheese</h3>
+            <img src="../static/photo_2.jpg" alt="Cheese Image">
+            <p class="dudush">Price: <span><s>$7.99</s> $4.79</span></p>
+            <p>Location: Shelf 11</p>
+        </div>
+        <div class="discount-product">
+            <h3>Chocolate</h3>
+            <img src="../static/photo_3.jpg" alt="Chocolate Image">
+            <p class="dudush">Price: <span><s>$3.99</s> $3.59</span></p>
+            <p>Location: Shelf 17</p>
+        </div>
+        <div class="discount-product">
+            <h3>Vanilla</h3>
+            <img src="../static/photo_1.jpg" alt="Vanilla Image">
+            <p class="dudush">Price: <span><s>$5.99</s> $4.79</span></p>
+            <p>Location: Shelf 14</p>
+        </div>
+    </div>
+</body>
+</html>

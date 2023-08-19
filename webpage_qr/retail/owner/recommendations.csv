@@ -1,0 +1,5 @@
+store_nbr,Product_family,recommendation
+6,POULTRY,Hold The POULTRY and Do Not Need to Order More for Store 6
+6,SEAFOOD,Hold The SEAFOOD and Order More for Store 6 with an amount of at least 46
+8,POULTRY,Hold The POULTRY and Do Not Need to Order More for Store 8
+8,SEAFOOD,Hold The SEAFOOD and Order More for Store 8 with an amount of at least 42
