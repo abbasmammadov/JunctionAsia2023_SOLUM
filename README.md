@@ -29,7 +29,7 @@ Here are the major areas where we applied machine learning for getting the most 
 
 * For Customers, Using word2vector models, we calculated semantic similarity of goods so that we can recommend related products for our customers. 
 
-* In addition to the above use-cases, we also leveraged the device so that it can accurately track, and lead customers to empty parking lots using Object detection algorithms which are used to detect cars. For details on how to run our object detection model: please visit the README file inside the folder 'improved_car_parking_lot'.
+* In addition to the above use-cases, we also leveraged the device so that it can accurately track, and lead customers to empty parking lots using Object detection algorithms which are used to detect cars. For details on how to run our object detection model: please visit the following [README](https://github.com/abbasmammadov/JunctionAsia2023_SOLUM/blob/main/improved_car_parking_lot/README.md).
 
 
 Under the root directory
