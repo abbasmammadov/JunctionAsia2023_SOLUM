@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request
 from retail.owner.store_family_info import get_graph_parameters
+import sys
 
 app = Flask(__name__)
 
@@ -46,4 +47,5 @@ def result():
 
 
 if __name__ == '__main__':
-    app.run(host='10.200.15.40', port=5000, debug=True)
+    host_name = sys.argv[1]
+    app.run(host=host_name, port=5000, debug=True)
